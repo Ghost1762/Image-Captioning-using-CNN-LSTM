@@ -13,4 +13,4 @@ Both the feature map and the caption characteristic matrix are combined (added e
 
 In the prediction step, the image is inserted into the Inception V3 model to extract the feature map and then input into the fully connected layers, which, with the help of the softmax activation, generates a probability distribution. This distribution helps determine the next word in the caption based on its word ID.
 
-Note: The first word is always <start>.
+Note: The first word is always < start >.
